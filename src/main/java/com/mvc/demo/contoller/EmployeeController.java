@@ -25,7 +25,7 @@ import com.mvc.demo.model.*;
 import com.mvc.demo.repository.EmployeeRepository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200") 
+@CrossOrigin(origins = "https://angular-spring-crud1.herokuapp.com") 
 @RequestMapping("/api/v1")
 public class EmployeeController {
 
